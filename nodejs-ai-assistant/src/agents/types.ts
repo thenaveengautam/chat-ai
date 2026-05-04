@@ -12,6 +12,7 @@ export interface AIAgent {
 export enum AgentPlatform {
   OPENAI = "openai",
   WRITING_ASSISTANT = "writing_assistant",
+  GROQ = "groq",
 }
 
 // Extended message type for writing assistant features
