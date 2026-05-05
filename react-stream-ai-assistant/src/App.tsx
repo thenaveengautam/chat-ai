@@ -30,7 +30,7 @@ function App() {
 
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <div className="h-screen bg-background">
+      <div className="h-[100dvh] md:h-screen bg-background overflow-hidden">
         {user ? (
           <AuthenticatedApp user={user} onLogout={handleLogout} />
         ) : (
